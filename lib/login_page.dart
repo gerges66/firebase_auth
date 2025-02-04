@@ -1,6 +1,6 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_auth_test/data/firebase_service.dart';
-import 'package:firebase_auth_test/pages/otp_page.dart';
+
 import 'package:flutter/material.dart';
 
 /// Login Page UI
@@ -90,7 +90,7 @@ _passwordController.dispose();
                       padding: const EdgeInsets.all(8.0),
                       child: GestureDetector(
                         onTap: (){
-                          Navigator.push(context,MaterialPageRoute(builder: (context)=>OTPPage()));
+                        //  Navigator.push(context,MaterialPageRoute(builder: (context)=>OTPPage()));
                         },
                         child: Text("sign with phone number ")),
                     ),
